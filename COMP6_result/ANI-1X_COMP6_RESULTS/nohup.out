@@ -1,0 +1,197 @@
+usage: comp6.py [-h] [-b BATCHATOMS] [-d DEVICE] dir
+comp6.py: error: the following arguments are required: dir
+usage: comp6.py [-h] [-b BATCHATOMS] [-d DEVICE] dir
+comp6.py: error: the following arguments are required: dir
+usage: comp6.py [-h] [-b BATCHATOMS] [-d DEVICE] dir
+comp6.py: error: the following arguments are required: dir
+usage: comp6.py [-h] [-b BATCHATOMS] [-d DEVICE] dir
+comp6.py: error: the following arguments are required: dir
+usage: comp6.py [-h] [-b BATCHATOMS] [-d DEVICE] dir
+comp6.py: error: the following arguments are required: dir
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'ani_md_bench.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/DrugBank:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/s66x8:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/GDB07to09:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb11_11_test500.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'tripeptide_full.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb13_12_test1000.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 's66x8_wb97x6-31gd.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/GDB10to13:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb13_13_test1000.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb11_08_test500.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb11_09_test500.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/Tripeptides:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: '../COMP6v1/ANI-MD:'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb11_10_test500.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'drugbank_testset.h5'
+dataset: 0it [00:00, ?it/s]dataset: 0it [00:00, ?it/s]
+Traceback (most recent call last):
+  File "../tools/comp6.py", line 110, in <module>
+    do_benchmark(ani1x)
+  File "../tools/comp6.py", line 79, in do_benchmark
+    for i in tqdm.tqdm(dataset, position=0, desc="dataset"):
+  File "/home/zhuhui/miniconda3/envs/pytorch/lib/python3.8/site-packages/tqdm/std.py", line 1130, in __iter__
+    for obj in iterable:
+  File "../tools/comp6.py", line 26, in recursive_h5_files
+    inside = os.listdir(base)
+FileNotFoundError: [Errno 2] No such file or directory: 'gdb11_07_test500.h5'

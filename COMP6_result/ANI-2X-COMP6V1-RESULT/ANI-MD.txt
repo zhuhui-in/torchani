@@ -1,0 +1,9 @@
+dataset: 0it [00:00, ?it/s]/home/huizhu/miniconda3/envs/torchani/lib/python3.8/site-packages/torchani/aev.py:195: UserWarning: This overload of nonzero is deprecated:
+	nonzero()
+Consider using one of the following signatures instead:
+	nonzero(*, bool as_tuple) (Triggered internally at  /opt/conda/conda-bld/pytorch_1595629434582/work/torch/csrc/utils/python_arg_parser.cpp:766.)
+  in_cutoff = (distances <= cutoff).nonzero()
+dataset: 1it [00:02,  2.76s/it]dataset: 2it [00:16,  5.94s/it]dataset: 3it [00:24,  6.82s/it]dataset: 4it [00:29,  6.20s/it]dataset: 5it [00:37,  6.58s/it]dataset: 6it [01:51, 26.99s/it]dataset: 7it [02:52, 37.01s/it]dataset: 8it [03:54, 44.59s/it]dataset: 9it [04:58, 50.52s/it]dataset: 10it [06:08, 56.17s/it]dataset: 11it [07:05, 56.48s/it]dataset: 12it [08:22, 62.68s/it]dataset: 13it [09:43, 68.28s/it]dataset: 14it [18:06, 198.43s/it]dataset: 14it [18:06, 77.57s/it] 
+Energy: 3.9227898249343816 7.4241959511392634
+Relative Energy: 2.2478843380908318 3.64431287688014
+Forces: 1.6776820855652286 2.7878776900047444
